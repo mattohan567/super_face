@@ -2,7 +2,7 @@
 
 A comprehensive face super-resolution system combining fine-tuned YOLOv8 face detection with Real-ESRGAN 4x enhancement. This project demonstrates advanced model fine-tuning, problem-solving through model migration, and robust pipeline development.
 
-## 🎯 Key Features
+## Key Features
 
 - **Fine-tuned YOLOv8**: Custom-trained on WiderFace dataset (12,880 images) for improved face detection
 - **Real-ESRGAN 4x Enhancement**: High-quality face super-resolution without artifacts
@@ -10,7 +10,7 @@ A comprehensive face super-resolution system combining fine-tuned YOLOv8 face de
 - **Problem-Solving**: Successfully migrated from GFPGAN to Real-ESRGAN to eliminate gray padding issues
 - **Comprehensive Evaluation**: PSNR, SSIM, and LPIPS metrics for quality assessment
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -24,7 +24,7 @@ jupyter notebook Face_Super_Resolution_Project.ipynb
 
 This notebook contains the full pipeline, training process, and analysis.
 
-## 📁 Core Implementation Files
+## Core Implementation Files
 
 ### Main Implementation
 - **`Face_Super_Resolution_Project.ipynb`** - Complete project with training, analysis, and results
@@ -72,29 +72,29 @@ This notebook contains the full pipeline, training process, and analysis.
 - **Training**: 50 epochs, batch size 8, 640px resolution
 - **Result**: Significantly improved face detection across diverse conditions
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Face Detection**: High accuracy with fine-tuned model
 - **Enhancement Quality**: 4x super-resolution with clean results
 - **Evaluation**: PSNR >25dB, SSIM >0.8, LPIPS <0.2 targets
 - **Processing**: GPU-accelerated for efficient inference
 
-## 🎓 Course Project Requirements
+## Course Project Requirements
 
-✅ **Advanced Implementation**: Fine-tuned models + custom pipeline  
-✅ **Problem-Solving**: GFPGAN → Real-ESRGAN migration  
-✅ **Documentation**: Comprehensive Jupyter notebook analysis  
-✅ **Evaluation**: Multiple quality metrics and comparisons  
-✅ **Reproducibility**: Complete setup and training pipeline  
+ **Advanced Implementation**: Fine-tuned models + custom pipeline  
+ **Problem-Solving**: GFPGAN → Real-ESRGAN migration  
+ **Documentation**: Comprehensive Jupyter notebook analysis  
+ **Evaluation**: Multiple quality metrics and comparisons  
+ **Reproducibility**: Complete setup and training pipeline  
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Extended Training**: Additional epochs for YOLO fine-tuning
 - **Multi-scale Detection**: Variable input sizes for different face scales  
 - **Real-time Optimization**: Video processing capabilities
 - **Ensemble Methods**: Combining multiple enhancement approaches
 
-## 📝 Usage Example
+##  Usage Example
 
 ```python
 from face_enhancer_yoloft import FaceEnhancerFinetuned
