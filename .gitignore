@@ -2,6 +2,10 @@ input_images/
 yolov8n.pt
 gfpgan/
 __pycache__/
+yolo_training/
+runs/
+*.pt
+yolo11n.pt
 
 
 
